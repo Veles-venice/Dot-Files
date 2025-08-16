@@ -1,0 +1,39 @@
+# ---- General ----
+*.log
+*.lock
+*.bak
+*~
+.DS_Store
+Thumbs.db
+
+# ---- Session / Cache / History ----
+ly-session.log
+session/
+Backups/
+yay/
+yay-bin/
+asw/
+pulse/
+nautilus/
+gnome-session/
+KDE/
+fish/fish_history
+fish/fishd.*
+kactivitymanagerdrc
+
+# ---- Package manager / runtime stuff ----
+*.pid
+*.db
+*.cache
+*.swp
+*.swo
+
+# ---- Avoid user dirs metadata ----
+user-dirs.dirs
+user-dirs.locale
+
+# ---- Optional (skip if personal) ----
+mimeapps.list
+dolphinrc
+konsole/*
+

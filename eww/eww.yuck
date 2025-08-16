@@ -1,0 +1,20 @@
+(defwindow main
+  :monitor 0
+  :geometry (geometry
+              :x "50%"
+              :y "50%"
+              :anchor "center"
+              :width "300px"
+              :height "180px")
+  :stacking "fg"
+  :exclusive false
+  (box
+    :orientation "v"
+    :halign "center"
+    :valign "center"
+    :class "clock-container"
+    (label :text (sh "./scripts/clock.sh date") :class "day-text")
+    (label :text (sh "./scripts/clock.sh time") :class "time-text")
+  )
+)
+

@@ -1,0 +1,31 @@
+* {
+  all: unset;
+  font-family: "JetBrainsMono Nerd Font", monospace;
+}
+
+.clock-container {
+  background-color: rgba(30, 0, 40, 0.75); /* dark purple transparent */
+  padding: 20px;
+  border-radius: 20px;
+  border: 2px solid rgba(255, 105, 180, 0.8); /* pink border */
+  box-shadow: 0 0 20px rgba(255, 0, 100, 0.5);
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.day-text {
+  font-size: 20px;
+  color: gold;
+  margin-bottom: 10px;
+}
+
+.time-text {
+  font-size: 42px;
+  color: white;
+  text-shadow: 0 0 5px rgba(255, 50, 50, 0.8);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+

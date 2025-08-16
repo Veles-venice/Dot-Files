@@ -1,0 +1,31 @@
+// eww.scss
+$font-main: "JetBrainsMono Nerd Font", monospace;
+
+.clock-box {
+  font-family: $font-main;
+  color: #ff79c6; // neon pink
+  text-align: center;
+  animation: fadeIn 0.8s ease-in-out forwards;
+}
+
+.day {
+  font-size: 28px;
+  color: #bd93f9; // purple
+}
+
+.time {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.date {
+  font-size: 24px;
+  color: #f1fa8c; // yellow
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  50% { opacity: 0.4; }
+  100% { opacity: 1; }
+}
+
