@@ -36,4 +36,8 @@ user-dirs.locale
 mimeapps.list
 dolphinrc
 konsole/*
-
+htop/*
+dconf/
+kde.org/
+xsettingsd
+*rc
