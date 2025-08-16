@@ -8,8 +8,8 @@
 
 
 My personal Linux configuration files.  
-This repo contains the setup I use daily for **Hyprland**, **Neovim**, **Kitty**, **Waybar**, and more.  
-Built around speed, aesthetics, and a fully keyboard-driven workflow.
+This repo contains the setup I use daily(It's still changing) for **Hyprland**, **Neovim**, **Kitty**, **Waybar**, and more.  
+Built around speed, aesthetics, and a fully keyboard-driven workflow. I use arch btw!
 
 ---
 
@@ -46,9 +46,8 @@ Built around speed, aesthetics, and a fully keyboard-driven workflow.
 2. Dependencies:
   yay -S hyprland kitty waybar neovim ttf-cascadia-code-nerd \
    ttf-font-awesome grim slurp wofi
-
-## Screenshots
+   
 ## 🎨 Screenshots
-![Main desktop](~/Pictures/screenshot-20250816-121637.png)
-![Neovim config](~/Pictures/screenshot-20250816-121834.png)
-![styling](~/Pictures/screenshot-20250816-122326.png)
+![Main desktop](screenshot/screenshot-20250816-121637.png)
+![Neovim config](screenshot/screenshot-20250816-121834.png)
+![styling](screenshot/screenshot-20250816-122326.png)
